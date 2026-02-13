@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-['Quicksand'] bg-gradient-to-br from-pink-100 to-red-100 min-h-screen overflow-hidden;
+  }
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
